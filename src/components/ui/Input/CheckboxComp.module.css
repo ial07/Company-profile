@@ -1,0 +1,32 @@
+.customCheckbox {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #252b37;
+  border-radius: 6px;
+  background-color: transparent;
+  cursor: pointer;
+  position: relative;
+}
+
+.customCheckboxLight {
+  border: 1px solid #dfdfdf;
+}
+
+.customCheckboxDark {
+  border: 1px solid #252b37;
+  background-color: #111827;
+}
+
+.customCheckbox:checked::after {
+  content: "✓";
+  color: white;
+  position: absolute;
+  left: 5px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.customCheckbox:checked {
+  background-color: #ff623e;
+}
