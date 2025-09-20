@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import HeroSection from "./components/container/HeroSection";
 import Headers from "./components/container/Header/Header";
 import AboutSection from "./components/container/AboutSection/AboutSection";

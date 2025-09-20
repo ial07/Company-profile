@@ -1,4 +1,3 @@
-import React from "react";
 import { SectionContainer } from "../Section";
 import { TestimonialCarousel } from "../../ui/Carousel";
 import { TestimonialConst } from "./TestimonialSection.contants";
